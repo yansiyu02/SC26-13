@@ -333,7 +333,7 @@ overlayWindow.setIgnoreMouseEvents(true, { forward: true });
 ## 6. 项目结构
 
 ```
-keysail/
+keysoil/
 ├── package.json                    # pnpm 工作区配置
 ├── pnpm-lock.yaml
 ├── tsconfig.json
@@ -420,7 +420,7 @@ keysail/
 │   │   ├── CropDefs.test.ts        # 作物定义验证
 │   │   └── SpriteManager.test.ts   # 资源加载
 │   ├── integration/
-│   │   ├── keyboard-hook.test.ts   # useiohook-napi 集成
+│   │   ├── keyboard-hook.test.ts   # uiohook-napi 集成
 │   │   ├── ipc-bridge.test.ts     # IPC 通道收发
 │   │   ├── farm-render.test.ts    # 引擎→渲染 数据流
 │   │   └── persistence.test.ts   # 存档读写
@@ -448,7 +448,7 @@ keysail/
 ```json
 // package.json
 {
-  "name": "keysail",
+  "name": "keysoil",
   "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@9.x",
@@ -663,7 +663,7 @@ jobs:
 
 ```yaml
 # electron-builder.yml
-appId: com.keysail.farm
+appId: com.keysoil.farm
 productName: KeySoil
 copyright: Copyright © 2026 KeySoil
 directories:

@@ -20,7 +20,7 @@ KeySoil（按键沃土）是一款跨平台桌面陪伴应用，使用 Electron 
 ## 项目结构
 
 ```
-keysail/
+keysoil/
 ├── electron/           # 主进程
 │   ├── main.ts         # 入口：窗口、键盘钩子、托盘初始化
 │   ├── preload.ts      # contextBridge 安全 API
