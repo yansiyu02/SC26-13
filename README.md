@@ -2,7 +2,7 @@
 
 > 键盘播种，成熟收获 —— 一款打字即耕耘的 macOS 桌面陪伴应用。
 
-KeySoil 是一款 macOS 原生桌面陪伴应用。你在键盘上正常打字时，每一次按键都会驱动虚拟像素农场的生长。农场以**键盘配列**呈现在透明悬浮窗口中——每个物理按键就是一块土壤，常用键作物茂盛，冷门键维持荒芜。
+KeySoil 是一款 macOS 原生桌面陪伴应用。你在键盘上正常打字时，每一次按键都会驱动虚拟像素农场的生长。农场以**键盘配列**呈现在透明悬浮窗口中。
 
 ## 特色
 
@@ -50,6 +50,7 @@ make release        # swift build -c release
 
 ```bash
 swift run TypingFarmerMac -- --snapshot /tmp/snapshot.png
+open /tmp/snapshot.png
 ```
 
 ## 项目结构
